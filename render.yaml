@@ -1,0 +1,8 @@
+services:
+  - type: cron
+    name: multi-source-web-scraper
+    runtime: docker
+    schedule: "0 4 * * *"
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    dockerCommand: "python main.py"

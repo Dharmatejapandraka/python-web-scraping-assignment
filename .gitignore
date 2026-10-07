@@ -1,0 +1,9 @@
+venv/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+output/final_dataset.csv
+output/summary_report.json
+logs/scraper.log
+.env
